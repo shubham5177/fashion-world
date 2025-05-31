@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion World - Where Style Meets Elegance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Fashion World</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#mens">Men's</a></li>
+                <li><a href="#womens">Women's</a></li>
+                <li><a href="#boys">Boys</a></li>
+                <li><a href="#girls">Girls</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" onclick="closeMobileMenu()">Home</a>
+            <a href="#mens" onclick="closeMobileMenu()">Men's</a>
+            <a href="#womens" onclick="closeMobileMenu()">Women's</a>
+            <a href="#boys" onclick="closeMobileMenu()">Boys</a>
+            <a href="#girls" onclick="closeMobileMenu()">Girls</a>
+            <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Fashion World</h1>
+            <p>Where Style Meets Elegance</p>
+            <a href="#mens" class="cta-button">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Men's Section -->
+    <section id="mens" class="section">
+        <h2 class="section-title fade-in">Men's Collection</h2>
+        <div class="category-grid">
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="Men's Fashion">
+                <div class="category-overlay">
+                    <h3 class="category-title">Premium Suits</h3>
+                    <p class="category-desc">Sophisticated and elegant suits for the modern gentleman</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400&h=400&fit=crop" alt="Men's Casual">
+                <div class="category-overlay">
+                    <h3 class="category-title">Casual Wear</h3>
+                    <p class="category-desc">Comfortable and stylish everyday clothing</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=300&h=300&fit=crop" alt="Men's Shirt">
+                <h3 class="product-title">Classic White Shirt</h3>
+                <p class="product-price">$89.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=300&fit=crop" alt="Men's Jeans">
+                <h3 class="product-title">Premium Denim</h3>
+                <p class="product-price">$129.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300&h=300&fit=crop" alt="Men's Jacket">
+                <h3 class="product-title">Leather Jacket</h3>
+                <p class="product-price">$299.99</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Women's Section -->
+    <section id="womens" class="section">
+        <h2 class="section-title fade-in">Women's Collection</h2>
+        <div class="category-grid">
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=400&fit=crop" alt="Women's Fashion">
+                <div class="category-overlay">
+                    <h3 class="category-title">Elegant Dresses</h3>
+                    <p class="category-desc">Beautiful dresses for every occasion</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop" alt="Women's Casual">
+                <div class="category-overlay">
+                    <h3 class="category-title">Chic Casual</h3>
+                    <p class="category-desc">Trendy and comfortable everyday wear</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1566479179817-0a3e509b7b3a?w=400&h=400&fit=crop" alt="Women's Professional">
+                <div class="category-overlay">
+                    <h3 class="category-title">Professional</h3>
+                    <p class="category-desc">Sophisticated workwear for the modern woman</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400&h=400&fit=crop" alt="Women's Evening">
+                <div class="category-overlay">
+                    <h3 class="category-title">Evening Wear</h3>
+                    <p class="category-desc">Glamorous outfits for special occasions</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=300&h=300&fit=crop" alt="Women's Dress">
+                <h3 class="product-title">Summer Dress</h3>
+                <p class="product-price">$79.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1564257577154-75f4d82d10fd?w=300&h=300&fit=crop" alt="Women's Blouse">
+                <h3 class="product-title">Silk Blouse</h3>
+                <p class="product-price">$119.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=300&h=300&fit=crop" alt="Women's Jeans">
+                <h3 class="product-title">High-Waist Jeans</h3>
+                <p class="product-price">$99.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1583496661160-fb5886a13c86?w=300&h=300&fit=crop" alt="Women's Handbag">
+                <h3 class="product-title">Designer Handbag</h3>
+                <p class="product-price">$199.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=300&h=300&fit=crop" alt="Women's Heels">
+                <h3 class="product-title">Elegant Heels</h3>
+                <p class="product-price">$149.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1592878904946-b3cd8ae243d0?w=300&h=300&fit=crop" alt="Women's Jacket">
+                <h3 class="product-title">Blazer Jacket</h3>
+                <p class="product-price">$179.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1576021182211-9ea8dced3690?w=300&h=300&fit=crop" alt="Women's Accessories">
+                <h3 class="product-title">Statement Necklace</h3>
+                <p class="product-price">$89.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=300&fit=crop" alt="Women's Perfume">
+                <h3 class="product-title">Luxury Perfume</h3>
+                <p class="product-price">$129.99</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boys Section -->
+    <section id="boys" class="section">
+        <h2 class="section-title fade-in">Boys Collection</h2>
+        <div class="category-grid">
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1503944168664-d72dcc4bf2a4?w=400&h=400&fit=crop" alt="Boys Fashion">
+                <div class="category-overlay">
+                    <h3 class="category-title">School Uniforms</h3>
+                    <p class="category-desc">Smart and comfortable school wear</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1519457431-44ccd64a579b?w=400&h=400&fit=crop" alt="Boys Casual">
+                <div class="category-overlay">
+                    <h3 class="category-title">Play Wear</h3>
+                    <p class="category-desc">Fun and durable clothing for active boys</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1542061409-b2b73ab9a55a?w=400&h=400&fit=crop" alt="Boys Sports">
+                <div class="category-overlay">
+                    <h3 class="category-title">Sports Wear</h3>
+                    <p class="category-desc">Athletic clothing for young champions</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1544963950-95672f71cc22?w=400&h=400&fit=crop" alt="Boys Party">
+                <div class="category-overlay">
+                    <h3 class="category-title">Party Wear</h3>
+                    <p class="category-desc">Special occasion outfits for young gentlemen</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1564463836146-4e30522c2984?w=300&h=300&fit=crop" alt="Boys T-shirt">
+                <h3 class="product-title">Graphic T-Shirt</h3>
+                <p class="product-price">$24.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1581791534145-c996e1b32516?w=300&h=300&fit=crop" alt="Boys Shorts">
+                <h3 class="product-title">Cargo Shorts</h3>
+                <p class="product-price">$34.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1588100076534-3ca0ec868fd6?w=300&h=300&fit=crop" alt="Boys Hoodie">
+                <h3 class="product-title">Cozy Hoodie</h3>
+                <p class="product-price">$44.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae4058c22c93?w=300&h=300&fit=crop" alt="Boys Jeans">
+                <h3 class="product-title">Denim Jeans</h3>
+                <p class="product-price">$39.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1578403881967-084f9885be74?w=300&h=300&fit=crop" alt="Boys Sneakers">
+                <h3 class="product-title">Cool Sneakers</h3>
+                <p class="product-price">$59.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1563396983906-b3795482a59a?w=300&h=300&fit=crop" alt="Boys Cap">
+                <h3 class="product-title">Baseball Cap</h3>
+                <p class="product-price">$19.99</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Girls Section -->
+    <section id="girls" class="section">
+        <h2 class="section-title fade-in">Girls Collection</h2>
+        <div class="category-grid">
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?w=400&h=400&fit=crop" alt="Girls Fashion">
+                <div class="category-overlay">
+                    <h3 class="category-title">Pretty Dresses</h3>
+                    <p class="category-desc">Adorable dresses for special occasions</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1522556189639-b150ed9c4330?w=400&h=400&fit=crop" alt="Girls Casual">
+                <div class="category-overlay">
+                    <h3 class="category-title">Fun Casuals</h3>
+                    <p class="category-desc">Comfortable and colorful everyday wear</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=400&h=400&fit=crop" alt="Girls School">
+                <div class="category-overlay">
+                    <h3 class="category-title">School Wear</h3>
+                    <p class="category-desc">Smart and comfortable uniforms</p>
+                </div>
+            </div>
+            <div class="category-card fade-in">
+                <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=400&fit=crop" alt="Girls Party">
+                <div class="category-overlay">
+                    <h3 class="category-title">Party Dresses</h3>
+                    <p class="category-desc">Beautiful outfits for celebrations</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-grid">
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1503944168664-d72dcc4bf2a4?w=300&h=300&fit=crop" alt="Girls Dress">
+                <h3 class="product-title">Floral Dress</h3>
+                <p class="product-price">$39.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=300&h=300&fit=crop" alt="Girls Skirt">
+                <h3 class="product-title">Tutu Skirt</h3>
+                <p class="product-price">$29.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=300&h=300&fit=crop" alt="Girls Top">
+                <h3 class="product-title">Rainbow Top</h3>
+                <p class="product-price">$24.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=300&h=300&fit=crop" alt="Girls Jumpsuit">
+                <h3 class="product-title">Cute Jumpsuit</h3>
+                <p class="product-price">$44.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1522886288863-63affd4fb295?w=300&h=300&fit=crop" alt="Girls Shoes">
+                <h3 class="product-title">Sparkly Shoes</h3>
+                <p class="product-price">$49.99</p>
+            </div>
+            <div class="product-card fade-in">
+                <img src="https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?w=300&h=300&fit=crop" alt="Girls Accessories">
+                <h3 class="product-title">Hair Accessories</h3>
+                <p class="product-price">$14.99</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#mens">Men's</a>
+                <a href="#womens">Women's</a>
+                <a href="#boys">Boys</a>
+                <a href="#girls">Girls</a>
+                <a href="mailto:info@fashionworld.com">Contact</a>
+            </div>
+            <p>&copy; 2025 Fashion World. All rights reserved.</p>
+            <div class="developer-credit">
+                Developed by Shubham
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
